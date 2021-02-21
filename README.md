@@ -1,17 +1,17 @@
-#inkbatch
+# inkbatch
 Simple bash script to export inkscape layers to individual images (png, ps, eps, etc.) The generated images can be autocropped using ImageMagick.
 
-##Requirements
+## Requirements
 `inkscape` - To export the images
 
 `xmlstarlet` - To parse layer info for friendlier filenames (e.g eyes.png instead of layer13.png)
 
 `convert` - To autocrop the resulting images
 
-##Arguments
+## Arguments
 TODO
 
-##Examples
+## Examples
 Export layers into current working dir.
 
 ```sh
